@@ -1,0 +1,29 @@
+{
+  "name": "React_Intro",
+  "version": "1.0.0",
+  "description": "description",
+  "main": "index.js",
+  "homepage": "http://Fatimazohra95.github.io/alx-react",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fatimazohra95"
+  },
+  "author": "Fatima Zohra Lakhal",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
